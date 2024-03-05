@@ -7,7 +7,7 @@ function Test() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://cors-anywhere.herokuapp.com/http://128.199.176.152/");
+        const response = await axios.get("http://128.199.176.152/");
         setData(response.data);
       } catch (error) {
         console.error(error);
